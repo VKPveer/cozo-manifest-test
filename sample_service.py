@@ -18,3 +18,8 @@ class UserService:
 
 def helper_function(value):
     return value
+    
+    def get_user(self, user_id):
+    return {
+        "user_id": user_id
+    }
