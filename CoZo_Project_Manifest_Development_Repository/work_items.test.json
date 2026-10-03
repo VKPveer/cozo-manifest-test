@@ -1,0 +1,35 @@
+[
+  {
+    "tenant_id": "VTENANT-002",
+    "project_id": "VPROJ-002",
+
+    "requirement": {
+      "requirement_id": "REQ-002",
+      "title": "User registration"
+    },
+
+    "user_story": {
+      "story_id": "STORY-001",
+      "title": "Create user registration flow"
+    },
+
+    "task": {
+      "task_id": "TASK-001",
+      "title": "Implement create_user"
+    },
+
+    "task_run": {
+      "task_run_id": "RUN-001"
+    },
+
+    "git": {
+      "branch": "main"
+    },
+
+    "code_reference": {
+      "file": "sample_service.py",
+      "class_name": "UserService",
+      "symbol": "create_user"
+    }
+  }
+]

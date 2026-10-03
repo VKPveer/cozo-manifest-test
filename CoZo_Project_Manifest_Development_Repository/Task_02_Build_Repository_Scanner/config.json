@@ -1,0 +1,4 @@
+{
+  "ignore_folders": [".git", "__pycache__", "node_modules", ".venv", "venv", "dist", "build", ".idea", ".vscode", "coverage", ".pytest_cache"],
+  "supported_extensions": [".py", ".js", ".jsx", ".ts", ".tsx", ".java", ".cs", ".cpp", ".c", ".h", ".hpp", ".go", ".rs", ".php", ".rb", ".sql", ".json", ".yaml", ".yml"]
+}

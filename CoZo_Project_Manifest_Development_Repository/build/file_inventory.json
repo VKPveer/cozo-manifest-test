@@ -1,0 +1,23 @@
+{
+  "repository_root": "D:\\AgentAPI\\CoZo_Project_Manifest_Development_Repository\\api\\temp_repos\\a89c1604-ca0b-4743-982b-d8ab5eef23ac",
+  "files": [
+    {
+      "path": "app.py",
+      "name": "app.py",
+      "extension": ".py",
+      "type": "source",
+      "size": 5341,
+      "hash": "f086bd26b305b5f2f0ca0c83bd5cbe8c775e10426faef02473780d7678b409f2",
+      "last_modified": "2026-10-02T13:45:59.446520+00:00"
+    },
+    {
+      "path": "sample_service.py",
+      "name": "sample_service.py",
+      "extension": ".py",
+      "type": "source",
+      "size": 5558,
+      "hash": "cfa0d300c7d6bd34c3a0b80633214c3edf1879f7bebd58657a8cc16916465985",
+      "last_modified": "2026-10-02T13:45:59.447520+00:00"
+    }
+  ]
+}

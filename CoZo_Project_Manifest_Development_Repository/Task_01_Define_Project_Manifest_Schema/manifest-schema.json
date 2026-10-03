@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CoZo Project Manifest Schema",
+  "type": "object",
+  "required": ["manifest_version", "repository", "files", "traceability"],
+  "properties": {
+    "manifest_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "repository": {
+      "type": "object",
+      "required": ["name", "url", "branch", "commit_sha"],
+      "properties": {
+        "name": {"type": "string"},
+        "url": {"type": "string"},
+        "branch": {"type": "string"},
+        "commit_sha": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "language"],
+        "properties": {
+          "path": {"type": "string"},
+          "name": {"type": ["string", "null"]},
+          "extension": {"type": ["string", "null"]},
+          "type": {"type": ["string", "null"]},
+          "language": {"type": "string"},
+          "size": {"type": ["integer", "null"]},
+          "hash": {"type": ["string", "null"]},
+          "last_modified": {"type": ["string", "number", "null"]},
+          "classes": {"type": "array"},
+          "functions": {"type": "array"},
+          "symbols": {"type": "array"},
+          "dependencies": {"type": "array"},
+          "parse_error": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "traceability": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tenant_id": {"type": ["string", "null"]},
+          "project_id": {"type": ["string", "null"]},
+          "requirement_ids": {"type": "array", "items": {"type": "string"}},
+          "story_id": {"type": ["string", "null"]},
+          "task_id": {"type": ["string", "null"]},
+          "task_run_id": {"type": ["string", "null"]},
+          "git": {"type": "object"},
+          "code_reference": {"type": ["object", "null"]},
+          "unresolved_code_reference": {"type": "object"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

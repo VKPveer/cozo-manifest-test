@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "file": "app.py",
+      "dependencies": [
+        {
+          "name": "json",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "os",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "logging",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "pathlib.Path",
+          "type": "from_import",
+          "category": "standard_library"
+        },
+        {
+          "name": "datetime.datetime",
+          "type": "from_import",
+          "category": "standard_library"
+        },
+        {
+          "name": "sample_service.UserService",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.UserValidationService",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.UserReportService",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.normalize_email",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.generate_reference",
+          "type": "from_import",
+          "category": "internal"
+        }
+      ]
+    },
+    {
+      "file": "sample_service.py",
+      "dependencies": [
+        {
+          "name": "json",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "datetime.datetime",
+          "type": "from_import",
+          "category": "standard_library"
+        },
+        {
+          "name": "typing.Optional",
+          "type": "from_import",
+          "category": "standard_library"
+        }
+      ]
+    }
+  ]
+}

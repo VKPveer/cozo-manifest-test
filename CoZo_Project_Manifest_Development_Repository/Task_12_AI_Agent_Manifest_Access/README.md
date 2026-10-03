@@ -1,0 +1,1 @@
+AI coding agent manifest query integration will be added here.

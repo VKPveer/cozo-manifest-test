@@ -1,0 +1,27 @@
+{
+  "traceability": [
+    {
+      "tenant_id": "VTENANT-002",
+      "project_id": "VPROJ-002",
+      "requirement_ids": [
+        "REQ-002"
+      ],
+      "story_id": "STORY-001",
+      "task_id": "TASK-001",
+      "task_run_id": "RUN-001",
+      "git": {
+        "branch": "main"
+      },
+      "mapped_at": "2026-10-02T19:16:00+05:30",
+      "code_reference": {
+        "file": "sample_service.py",
+        "symbol_type": "method",
+        "class_name": "UserService",
+        "symbol": "create_user",
+        "signature": "create_user(self,name,email,role)",
+        "line_start": 15,
+        "line_end": 44
+      }
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "repository_root": "D:\\AgentAPI\\CoZo_Project_Manifest_Development_Repository\\api\\temp_repos\\a89c1604-ca0b-4743-982b-d8ab5eef23ac",
+  "files": [
+    {
+      "path": "app.py",
+      "language": "Python",
+      "classes": [],
+      "functions": [
+        {
+          "name": "load_seed_users",
+          "signature": "load_seed_users()",
+          "parameters": [],
+          "async": false,
+          "line_start": 30,
+          "line_end": 43
+        },
+        {
+          "name": "save_users",
+          "signature": "save_users(users)",
+          "parameters": [
+            "users"
+          ],
+          "async": false,
+          "line_start": 46,
+          "line_end": 60
+        },
+        {
+          "name": "create_demo_users",
+          "signature": "create_demo_users(user_service,validation_service)",
+          "parameters": [
+            "user_service",
+            "validation_service"
+          ],
+          "async": false,
+          "line_start": 63,
+          "line_end": 153
+        },
+        {
+          "name": "print_user_report",
+          "signature": "print_user_report(user_service,report_service)",
+          "parameters": [
+            "user_service",
+            "report_service"
+          ],
+          "async": false,
+          "line_start": 156,
+          "line_end": 192
+        },
+        {
+          "name": "update_demo_user",
+          "signature": "update_demo_user(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 195,
+          "line_end": 223
+        },
+        {
+          "name": "deactivate_demo_user",
+          "signature": "deactivate_demo_user(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 226,
+          "line_end": 238
+        },
+        {
+          "name": "search_demo_users",
+          "signature": "search_demo_users(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 241,
+          "line_end": 259
+        },
+        {
+          "name": "export_demo_users",
+          "signature": "export_demo_users(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 262,
+          "line_end": 275
+        },
+        {
+          "name": "generate_demo_reference",
+          "signature": "generate_demo_reference()",
+          "parameters": [],
+          "async": false,
+          "line_start": 278,
+          "line_end": 289
+        },
+        {
+          "name": "show_runtime_info",
+          "signature": "show_runtime_info()",
+          "parameters": [],
+          "async": false,
+          "line_start": 292,
+          "line_end": 306
+        },
+        {
+          "name": "main",
+          "signature": "main()",
+          "parameters": [],
+          "async": false,
+          "line_start": 309,
+          "line_end": 385
+        }
+      ]
+    },
+    {
+      "path": "sample_service.py",
+      "language": "Python",
+      "classes": [
+        {
+          "name": "UserService",
+          "line_start": 6,
+          "line_end": 264,
+          "methods": [
+            {
+              "name": "__init__",
+              "signature": "__init__(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 8,
+              "line_end": 12
+            },
+            {
+              "name": "create_user",
+              "signature": "create_user(self,name,email,role)",
+              "parameters": [
+                "self",
+                "name",
+                "email",
+                "role"
+              ],
+              "async": false,
+              "line_start": 15,
+              "line_end": 44
+            },
+            {
+              "name": "get_user",
+              "signature": "get_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 47,
+              "line_end": 54
+            },
+            {
+              "name": "update_user",
+              "signature": "update_user(self,user_id,name,email,role)",
+              "parameters": [
+                "self",
+                "user_id",
+                "name",
+                "email",
+                "role"
+              ],
+              "async": false,
+              "line_start": 57,
+              "line_end": 100
+            },
+            {
+              "name": "deactivate_user",
+              "signature": "deactivate_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 103,
+              "line_end": 127
+            },
+            {
+              "name": "activate_user",
+              "signature": "activate_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 130,
+              "line_end": 154
+            },
+            {
+              "name": "delete_user",
+              "signature": "delete_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 157,
+              "line_end": 176
+            },
+            {
+              "name": "search_users",
+              "signature": "search_users(self,search_text)",
+              "parameters": [
+                "self",
+                "search_text"
+              ],
+              "async": false,
+              "line_start": 179,
+              "line_end": 207
+            },
+            {
+              "name": "list_active_users",
+              "signature": "list_active_users(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 210,
+              "line_end": 225
+            },
+            {
+              "name": "export_users_json",
+              "signature": "export_users_json(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 228,
+              "line_end": 237
+            },
+            {
+              "name": "get_user_count",
+              "signature": "get_user_count(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 240,
+              "line_end": 246
+            },
+            {
+              "name": "_write_audit",
+              "signature": "_write_audit(self,action,user_id)",
+              "parameters": [
+                "self",
+                "action",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 249,
+              "line_end": 264
+            }
+          ]
+        },
+        {
+          "name": "UserValidationService",
+          "line_start": 267,
+          "line_end": 315,
+          "methods": [
+            {
+              "name": "validate_email",
+              "signature": "validate_email(self,email)",
+              "parameters": [
+                "self",
+                "email"
+              ],
+              "async": false,
+              "line_start": 269,
+              "line_end": 281
+            },
+            {
+              "name": "validate_name",
+              "signature": "validate_name(self,name)",
+              "parameters": [
+                "self",
+                "name"
+              ],
+              "async": false,
+              "line_start": 284,
+              "line_end": 297
+            },
+            {
+              "name": "validate_role",
+              "signature": "validate_role(self,role)",
+              "parameters": [
+                "self",
+                "role"
+              ],
+              "async": false,
+              "line_start": 300,
+              "line_end": 315
+            }
+          ]
+        },
+        {
+          "name": "UserReportService",
+          "line_start": 318,
+          "line_end": 362,
+          "methods": [
+            {
+              "name": "build_summary",
+              "signature": "build_summary(self,users)",
+              "parameters": [
+                "self",
+                "users"
+              ],
+              "async": false,
+              "line_start": 320,
+              "line_end": 362
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "helper_function",
+          "signature": "helper_function(value)",
+          "parameters": [
+            "value"
+          ],
+          "async": false,
+          "line_start": 365,
+          "line_end": 369
+        },
+        {
+          "name": "normalize_email",
+          "signature": "normalize_email(email)",
+          "parameters": [
+            "email"
+          ],
+          "async": false,
+          "line_start": 372,
+          "line_end": 380
+        },
+        {
+          "name": "generate_reference",
+          "signature": "generate_reference(prefix,number)",
+          "parameters": [
+            "prefix",
+            "number"
+          ],
+          "async": false,
+          "line_start": 383,
+          "line_end": 390
+        }
+      ]
+    }
+  ]
+}

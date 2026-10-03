@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "tenant_id": "TENANT-001",
+      "project_id": "PROJECT-001",
+      "requirement_ids": ["REQ-001"],
+      "story_id": "STORY-001",
+      "task_id": "TASK-001",
+      "task_run_id": "RUN-001",
+      "code_reference": {
+        "file": "src/user_service.py",
+        "class_name": "UserService",
+        "symbol": "create_user"
+      }
+    }
+  ]
+}

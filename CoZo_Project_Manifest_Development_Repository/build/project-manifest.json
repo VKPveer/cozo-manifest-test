@@ -1,0 +1,885 @@
+{
+  "manifest_version": "1.0",
+  "generated_at": "2026-10-02T13:46:00.582486+00:00",
+  "repository": {
+    "name": "cozo-manifest-test",
+    "url": "https://github.com/VKPveer/cozo-manifest-test.git",
+    "branch": "main",
+    "commit_sha": "d642e495367c92bde2f7de4f2b35e22d43359578"
+  },
+  "files": [
+    {
+      "path": "app.py",
+      "name": "app.py",
+      "extension": ".py",
+      "type": "source",
+      "language": "Python",
+      "size": 5341,
+      "hash": "f086bd26b305b5f2f0ca0c83bd5cbe8c775e10426faef02473780d7678b409f2",
+      "last_modified": "2026-10-02T13:45:59.446520+00:00",
+      "classes": [],
+      "functions": [
+        {
+          "name": "load_seed_users",
+          "signature": "load_seed_users()",
+          "parameters": [],
+          "async": false,
+          "line_start": 30,
+          "line_end": 43
+        },
+        {
+          "name": "save_users",
+          "signature": "save_users(users)",
+          "parameters": [
+            "users"
+          ],
+          "async": false,
+          "line_start": 46,
+          "line_end": 60
+        },
+        {
+          "name": "create_demo_users",
+          "signature": "create_demo_users(user_service,validation_service)",
+          "parameters": [
+            "user_service",
+            "validation_service"
+          ],
+          "async": false,
+          "line_start": 63,
+          "line_end": 153
+        },
+        {
+          "name": "print_user_report",
+          "signature": "print_user_report(user_service,report_service)",
+          "parameters": [
+            "user_service",
+            "report_service"
+          ],
+          "async": false,
+          "line_start": 156,
+          "line_end": 192
+        },
+        {
+          "name": "update_demo_user",
+          "signature": "update_demo_user(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 195,
+          "line_end": 223
+        },
+        {
+          "name": "deactivate_demo_user",
+          "signature": "deactivate_demo_user(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 226,
+          "line_end": 238
+        },
+        {
+          "name": "search_demo_users",
+          "signature": "search_demo_users(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 241,
+          "line_end": 259
+        },
+        {
+          "name": "export_demo_users",
+          "signature": "export_demo_users(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "async": false,
+          "line_start": 262,
+          "line_end": 275
+        },
+        {
+          "name": "generate_demo_reference",
+          "signature": "generate_demo_reference()",
+          "parameters": [],
+          "async": false,
+          "line_start": 278,
+          "line_end": 289
+        },
+        {
+          "name": "show_runtime_info",
+          "signature": "show_runtime_info()",
+          "parameters": [],
+          "async": false,
+          "line_start": 292,
+          "line_end": 306
+        },
+        {
+          "name": "main",
+          "signature": "main()",
+          "parameters": [],
+          "async": false,
+          "line_start": 309,
+          "line_end": 385
+        }
+      ],
+      "symbols": [
+        {
+          "symbol_type": "function",
+          "name": "load_seed_users",
+          "signature": "load_seed_users()",
+          "parameters": [],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 30,
+          "line_end": 43
+        },
+        {
+          "symbol_type": "function",
+          "name": "save_users",
+          "signature": "save_users(users)",
+          "parameters": [
+            "users"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 46,
+          "line_end": 60
+        },
+        {
+          "symbol_type": "function",
+          "name": "create_demo_users",
+          "signature": "create_demo_users(user_service,validation_service)",
+          "parameters": [
+            "user_service",
+            "validation_service"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 63,
+          "line_end": 153
+        },
+        {
+          "symbol_type": "function",
+          "name": "print_user_report",
+          "signature": "print_user_report(user_service,report_service)",
+          "parameters": [
+            "user_service",
+            "report_service"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 156,
+          "line_end": 192
+        },
+        {
+          "symbol_type": "function",
+          "name": "update_demo_user",
+          "signature": "update_demo_user(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 195,
+          "line_end": 223
+        },
+        {
+          "symbol_type": "function",
+          "name": "deactivate_demo_user",
+          "signature": "deactivate_demo_user(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 226,
+          "line_end": 238
+        },
+        {
+          "symbol_type": "function",
+          "name": "search_demo_users",
+          "signature": "search_demo_users(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 241,
+          "line_end": 259
+        },
+        {
+          "symbol_type": "function",
+          "name": "export_demo_users",
+          "signature": "export_demo_users(user_service)",
+          "parameters": [
+            "user_service"
+          ],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 262,
+          "line_end": 275
+        },
+        {
+          "symbol_type": "function",
+          "name": "generate_demo_reference",
+          "signature": "generate_demo_reference()",
+          "parameters": [],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 278,
+          "line_end": 289
+        },
+        {
+          "symbol_type": "function",
+          "name": "show_runtime_info",
+          "signature": "show_runtime_info()",
+          "parameters": [],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 292,
+          "line_end": 306
+        },
+        {
+          "symbol_type": "function",
+          "name": "main",
+          "signature": "main()",
+          "parameters": [],
+          "file": "app.py",
+          "language": "Python",
+          "line_start": 309,
+          "line_end": 385
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "json",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "os",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "logging",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "pathlib.Path",
+          "type": "from_import",
+          "category": "standard_library"
+        },
+        {
+          "name": "datetime.datetime",
+          "type": "from_import",
+          "category": "standard_library"
+        },
+        {
+          "name": "sample_service.UserService",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.UserValidationService",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.UserReportService",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.normalize_email",
+          "type": "from_import",
+          "category": "internal"
+        },
+        {
+          "name": "sample_service.generate_reference",
+          "type": "from_import",
+          "category": "internal"
+        }
+      ]
+    },
+    {
+      "path": "sample_service.py",
+      "name": "sample_service.py",
+      "extension": ".py",
+      "type": "source",
+      "language": "Python",
+      "size": 5558,
+      "hash": "cfa0d300c7d6bd34c3a0b80633214c3edf1879f7bebd58657a8cc16916465985",
+      "last_modified": "2026-10-02T13:45:59.447520+00:00",
+      "classes": [
+        {
+          "name": "UserService",
+          "line_start": 6,
+          "line_end": 264,
+          "methods": [
+            {
+              "name": "__init__",
+              "signature": "__init__(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 8,
+              "line_end": 12
+            },
+            {
+              "name": "create_user",
+              "signature": "create_user(self,name,email,role)",
+              "parameters": [
+                "self",
+                "name",
+                "email",
+                "role"
+              ],
+              "async": false,
+              "line_start": 15,
+              "line_end": 44
+            },
+            {
+              "name": "get_user",
+              "signature": "get_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 47,
+              "line_end": 54
+            },
+            {
+              "name": "update_user",
+              "signature": "update_user(self,user_id,name,email,role)",
+              "parameters": [
+                "self",
+                "user_id",
+                "name",
+                "email",
+                "role"
+              ],
+              "async": false,
+              "line_start": 57,
+              "line_end": 100
+            },
+            {
+              "name": "deactivate_user",
+              "signature": "deactivate_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 103,
+              "line_end": 127
+            },
+            {
+              "name": "activate_user",
+              "signature": "activate_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 130,
+              "line_end": 154
+            },
+            {
+              "name": "delete_user",
+              "signature": "delete_user(self,user_id)",
+              "parameters": [
+                "self",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 157,
+              "line_end": 176
+            },
+            {
+              "name": "search_users",
+              "signature": "search_users(self,search_text)",
+              "parameters": [
+                "self",
+                "search_text"
+              ],
+              "async": false,
+              "line_start": 179,
+              "line_end": 207
+            },
+            {
+              "name": "list_active_users",
+              "signature": "list_active_users(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 210,
+              "line_end": 225
+            },
+            {
+              "name": "export_users_json",
+              "signature": "export_users_json(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 228,
+              "line_end": 237
+            },
+            {
+              "name": "get_user_count",
+              "signature": "get_user_count(self)",
+              "parameters": [
+                "self"
+              ],
+              "async": false,
+              "line_start": 240,
+              "line_end": 246
+            },
+            {
+              "name": "_write_audit",
+              "signature": "_write_audit(self,action,user_id)",
+              "parameters": [
+                "self",
+                "action",
+                "user_id"
+              ],
+              "async": false,
+              "line_start": 249,
+              "line_end": 264
+            }
+          ]
+        },
+        {
+          "name": "UserValidationService",
+          "line_start": 267,
+          "line_end": 315,
+          "methods": [
+            {
+              "name": "validate_email",
+              "signature": "validate_email(self,email)",
+              "parameters": [
+                "self",
+                "email"
+              ],
+              "async": false,
+              "line_start": 269,
+              "line_end": 281
+            },
+            {
+              "name": "validate_name",
+              "signature": "validate_name(self,name)",
+              "parameters": [
+                "self",
+                "name"
+              ],
+              "async": false,
+              "line_start": 284,
+              "line_end": 297
+            },
+            {
+              "name": "validate_role",
+              "signature": "validate_role(self,role)",
+              "parameters": [
+                "self",
+                "role"
+              ],
+              "async": false,
+              "line_start": 300,
+              "line_end": 315
+            }
+          ]
+        },
+        {
+          "name": "UserReportService",
+          "line_start": 318,
+          "line_end": 362,
+          "methods": [
+            {
+              "name": "build_summary",
+              "signature": "build_summary(self,users)",
+              "parameters": [
+                "self",
+                "users"
+              ],
+              "async": false,
+              "line_start": 320,
+              "line_end": 362
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "name": "helper_function",
+          "signature": "helper_function(value)",
+          "parameters": [
+            "value"
+          ],
+          "async": false,
+          "line_start": 365,
+          "line_end": 369
+        },
+        {
+          "name": "normalize_email",
+          "signature": "normalize_email(email)",
+          "parameters": [
+            "email"
+          ],
+          "async": false,
+          "line_start": 372,
+          "line_end": 380
+        },
+        {
+          "name": "generate_reference",
+          "signature": "generate_reference(prefix,number)",
+          "parameters": [
+            "prefix",
+            "number"
+          ],
+          "async": false,
+          "line_start": 383,
+          "line_end": 390
+        }
+      ],
+      "symbols": [
+        {
+          "symbol_type": "class",
+          "name": "UserService",
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 6,
+          "line_end": 264
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "__init__",
+          "signature": "__init__(self)",
+          "parameters": [
+            "self"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 8,
+          "line_end": 12
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "create_user",
+          "signature": "create_user(self,name,email,role)",
+          "parameters": [
+            "self",
+            "name",
+            "email",
+            "role"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 15,
+          "line_end": 44
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "get_user",
+          "signature": "get_user(self,user_id)",
+          "parameters": [
+            "self",
+            "user_id"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 47,
+          "line_end": 54
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "update_user",
+          "signature": "update_user(self,user_id,name,email,role)",
+          "parameters": [
+            "self",
+            "user_id",
+            "name",
+            "email",
+            "role"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 57,
+          "line_end": 100
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "deactivate_user",
+          "signature": "deactivate_user(self,user_id)",
+          "parameters": [
+            "self",
+            "user_id"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 103,
+          "line_end": 127
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "activate_user",
+          "signature": "activate_user(self,user_id)",
+          "parameters": [
+            "self",
+            "user_id"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 130,
+          "line_end": 154
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "delete_user",
+          "signature": "delete_user(self,user_id)",
+          "parameters": [
+            "self",
+            "user_id"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 157,
+          "line_end": 176
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "search_users",
+          "signature": "search_users(self,search_text)",
+          "parameters": [
+            "self",
+            "search_text"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 179,
+          "line_end": 207
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "list_active_users",
+          "signature": "list_active_users(self)",
+          "parameters": [
+            "self"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 210,
+          "line_end": 225
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "export_users_json",
+          "signature": "export_users_json(self)",
+          "parameters": [
+            "self"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 228,
+          "line_end": 237
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "get_user_count",
+          "signature": "get_user_count(self)",
+          "parameters": [
+            "self"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 240,
+          "line_end": 246
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserService",
+          "name": "_write_audit",
+          "signature": "_write_audit(self,action,user_id)",
+          "parameters": [
+            "self",
+            "action",
+            "user_id"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 249,
+          "line_end": 264
+        },
+        {
+          "symbol_type": "class",
+          "name": "UserValidationService",
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 267,
+          "line_end": 315
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserValidationService",
+          "name": "validate_email",
+          "signature": "validate_email(self,email)",
+          "parameters": [
+            "self",
+            "email"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 269,
+          "line_end": 281
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserValidationService",
+          "name": "validate_name",
+          "signature": "validate_name(self,name)",
+          "parameters": [
+            "self",
+            "name"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 284,
+          "line_end": 297
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserValidationService",
+          "name": "validate_role",
+          "signature": "validate_role(self,role)",
+          "parameters": [
+            "self",
+            "role"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 300,
+          "line_end": 315
+        },
+        {
+          "symbol_type": "class",
+          "name": "UserReportService",
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 318,
+          "line_end": 362
+        },
+        {
+          "symbol_type": "method",
+          "class_name": "UserReportService",
+          "name": "build_summary",
+          "signature": "build_summary(self,users)",
+          "parameters": [
+            "self",
+            "users"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 320,
+          "line_end": 362
+        },
+        {
+          "symbol_type": "function",
+          "name": "helper_function",
+          "signature": "helper_function(value)",
+          "parameters": [
+            "value"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 365,
+          "line_end": 369
+        },
+        {
+          "symbol_type": "function",
+          "name": "normalize_email",
+          "signature": "normalize_email(email)",
+          "parameters": [
+            "email"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 372,
+          "line_end": 380
+        },
+        {
+          "symbol_type": "function",
+          "name": "generate_reference",
+          "signature": "generate_reference(prefix,number)",
+          "parameters": [
+            "prefix",
+            "number"
+          ],
+          "file": "sample_service.py",
+          "language": "Python",
+          "line_start": 383,
+          "line_end": 390
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "json",
+          "type": "import",
+          "category": "standard_library"
+        },
+        {
+          "name": "datetime.datetime",
+          "type": "from_import",
+          "category": "standard_library"
+        },
+        {
+          "name": "typing.Optional",
+          "type": "from_import",
+          "category": "standard_library"
+        }
+      ]
+    }
+  ],
+  "traceability": [
+    {
+      "tenant_id": "VTENANT-002",
+      "project_id": "VPROJ-002",
+      "requirement_ids": [
+        "REQ-002"
+      ],
+      "story_id": "STORY-001",
+      "task_id": "TASK-001",
+      "task_run_id": "RUN-001",
+      "git": {
+        "branch": "main",
+        "commit_sha": "d642e495367c92bde2f7de4f2b35e22d43359578"
+      },
+      "mapped_at": "2026-10-02T19:16:00+05:30",
+      "code_reference": {
+        "file": "sample_service.py",
+        "symbol_type": "method",
+        "class_name": "UserService",
+        "symbol": "create_user",
+        "signature": "create_user(self,name,email,role)",
+        "line_start": 15,
+        "line_end": 44
+      }
+    }
+  ]
+}
